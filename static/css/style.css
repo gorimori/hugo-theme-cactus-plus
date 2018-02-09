@@ -125,7 +125,7 @@ body {
 
 article {
     background-color: #fefefe;
-    padding: 10px 70px 30px;
+    padding: 10px 90px 30px;
     border-radius: 10px;
 }
 
@@ -219,10 +219,16 @@ nav.main-nav a.cta {
       line-height: 1.35;
       border-radius: 3px;
   }
+  article {
+    padding: 10px 10px 30px;
+}
 }
 @media (max-width: 324px) {
     nav.main-nav a.cta {
       display: none;
+    }
+    article {
+        padding: 10px 10px 30px;
     }
 }
 
@@ -556,7 +562,7 @@ Post List
 #header {
 }
 #wrapper.post {
-    max-width: 670px;
+    max-width: 1000px;
 }
 .post {
     margin: auto;
