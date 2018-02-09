@@ -491,6 +491,15 @@ img {
     width: 48px;
 }
 
+/* Home Page(contents list) */
+
+.home > ul > li {
+    background-color: #fefefe;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+
 
 /*=========================================
 Post List
