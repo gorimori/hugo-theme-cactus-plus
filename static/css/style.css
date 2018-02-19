@@ -903,7 +903,7 @@ a.symbol:hover {
   box-shadow: inset 0 0 0 1px #E4EBF2;
   border-radius: 4px;
   overflow: hidden;
-  font-family: 'Menlo', 'Monaco', Courier, monospace;
+  font-family: "Noto Sans CJK JP", monospace;
 }
 #TableOfContents {
   margin: 1em 0 0 0;
@@ -928,7 +928,7 @@ a.symbol:hover {
   padding: 0;
 }
 #TableOfContents a code{
-  font-family: Menlo, Monaco, Courier;
+  font-family: "Noto Sans CJK JP", monospace;
   background-color: #fff;
   font-size: 11px;
   padding: 2px 3px;
