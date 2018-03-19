@@ -3,7 +3,7 @@
 <body>
     {{ partial "nav.html" . }} {{ partial "profile.html" . }}
 
-    <section id="wrapper" class="post">
+    <section id="wrapper" class="post about-page">
         <article>
             {{ .Content }} {{ if .Site.Params.enableDisqus }} {{ if ne .Params.disabledisqus "true" }} {{ partial "disqus.html" . }}
             {{ end }} {{ end }}
